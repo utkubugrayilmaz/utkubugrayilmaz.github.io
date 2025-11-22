@@ -2,7 +2,7 @@
 layout: page
 title: Aytar - Autonomous Search & Rescue Drone
 description: A voice-based emergency signal recognition system developed for Teknofest, designed to accelerate search and rescue operations.
-img: assets/img/aytar_drone.jpg
+
 importance: 2
 category: work
 related_publications: false
