@@ -1,34 +1,53 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <b>Computer Engineer</b>. AI & Backend Developer. IoT Enthusiast.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: utku-bugra-yilmaz-ai-engineer.jpg
+  image_circular: false
+  address: >
+    <p>Ankara, Turkey</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a **Computer Engineer** and **Artificial Intelligence Engineer** based in Ankara. I graduated from **Giresun University** (GPA: 3.26/4) with a focus on building intelligent systems that bridge software and real-world applications.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My engineering philosophy is simple: **"Build scalable, intelligent solutions."** I specialize in **Machine Learning**, **Backend Development**, and **Embedded Systems**. I don't just train models; I deploy them into production using modern tech stacks like **FastAPI**, **Docker**, and **PostgreSQL**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### 🚀 Professional Experience
+
+**Freelance Machine Learning & Backend Engineer** (FinTech Project)
+I architected and developed a comprehensive financial analysis system for a startup project targeting **BIST100 stocks**. This was an end-to-end development role where I delivered:
+* **High-Performance ML Models:** Achieved **~0.67 Weighted F1-Score** and **0.97 Sharpe Ratio** in backtests using LightGBM.
+* **LLM Integration:** Implemented **DeepSeek LLM** for automated multilingual news summarization and sentiment analysis.
+* **Scalable Backend:** Built a robust API infrastructure using **FastAPI** and **Docker** to serve real-time trading predictions.
+
+Previously, at **MAN Türkiye A.Ş**, I gained experience in the automotive industry, working on **AUTOSAR** stacks and R&D backend systems.
+
+### 🛠️ Technical Stack
+
+* **AI & Data Science:** Python, TensorFlow, LightGBM, Scikit-learn, OpenCV, Pandas.
+* **Backend & DevOps:** FastAPI, REST APIs, Docker, Git, PostgreSQL.
+* **Hardware/IoT:** Arduino, ESP32, Raspberry Pi, Sensor Integration.
+
+I am currently open to collaboration opportunities in **AI** and **Backend Engineering**.
+
+---
+<div style="font-size: 0.8em; color: #666;">
+  <i>Fun Fact: Outside of coding, I am building a JARVIS-like voice assistant for my home and I play the Dombra (an ancient Turkic instrument).</i>
+</div>
