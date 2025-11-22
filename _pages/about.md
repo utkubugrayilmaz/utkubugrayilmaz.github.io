@@ -31,13 +31,13 @@ My engineering philosophy is simple: **"Build scalable, intelligent solutions."*
 
 ### Professional Experience
 
-**Freelance Machine Learning & Backend Engineer** (FinTech Project)
+-**Freelance Machine Learning & Backend Engineer** (FinTech Project)
 I architected and developed a comprehensive financial analysis system for a startup project targeting **BIST100 stocks**. This was an end-to-end development role where I delivered:
 * **High-Performance ML Models:** Achieved **~0.67 Weighted F1-Score** and **0.97 Sharpe Ratio** in backtests using LightGBM.
 * **LLM Integration:** Implemented **DeepSeek LLM** for automated multilingual news summarization and sentiment analysis.
 * **Scalable Backend:** Built a robust API infrastructure using **FastAPI** and **Docker** to serve real-time trading predictions.
 
-Previously, at **MAN Türkiye A.Ş**, I gained experience in the automotive industry, working on **AUTOSAR** stacks and R&D backend systems.
+-Previously, at **MAN Türkiye A.Ş**, I gained experience in the automotive industry, working on **AUTOSAR** stacks and R&D backend systems.
 
 ### Technical Stack
 
@@ -48,6 +48,6 @@ Previously, at **MAN Türkiye A.Ş**, I gained experience in the automotive indu
 I am currently open to collaboration opportunities in **AI** and **Backend Engineering**.
 
 ---
-<div style="font-size: 0.8em; color: #666;">
-  <i>Fun Fact: Outside of coding, I am building a JARVIS-like voice assistant for my home and I play the Dombra (an ancient Turkic instrument).</i>
-</div>
+<br>
+
+> **Fun Fact:** Outside of coding, I am building a JARVIS-like voice assistant for my home and I play the *Dombra* (an ancient Turkic instrument). 🎸
