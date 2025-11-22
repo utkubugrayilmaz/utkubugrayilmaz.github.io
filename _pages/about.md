@@ -6,7 +6,7 @@ subtitle: <b>Computer Engineer</b>. AI & Backend Developer. IoT Enthusiast.
 
 profile:
   align: right
-  image: utku-bugra-yilmaz-ai-engineer.jpg
+  image: false
   image_circular: false
   address: >
     <p>Ankara, Turkey</p>
