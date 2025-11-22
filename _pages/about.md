@@ -29,7 +29,7 @@ I am a **Computer Engineer** and **Artificial Intelligence Engineer** based in A
 
 My engineering philosophy is simple: **"Build scalable, intelligent solutions."** I specialize in **Machine Learning**, **Backend Development**, and **Embedded Systems**. I don't just train models; I deploy them into production using modern tech stacks like **FastAPI**, **Docker**, and **PostgreSQL**.
 
-### 🚀 Professional Experience
+### Professional Experience
 
 **Freelance Machine Learning & Backend Engineer** (FinTech Project)
 I architected and developed a comprehensive financial analysis system for a startup project targeting **BIST100 stocks**. This was an end-to-end development role where I delivered:
@@ -39,7 +39,7 @@ I architected and developed a comprehensive financial analysis system for a star
 
 Previously, at **MAN Türkiye A.Ş**, I gained experience in the automotive industry, working on **AUTOSAR** stacks and R&D backend systems.
 
-### 🛠️ Technical Stack
+### Technical Stack
 
 * **AI & Data Science:** Python, TensorFlow, LightGBM, Scikit-learn, OpenCV, Pandas.
 * **Backend & DevOps:** FastAPI, REST APIs, Docker, Git, PostgreSQL.
