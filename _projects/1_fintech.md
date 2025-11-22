@@ -2,7 +2,7 @@
 layout: page
 title: AI-Driven BIST100 Financial Analysis System
 description: A comprehensive stock analysis platform using LightGBM and LLMs for signal generation and news sentiment analysis.
-img: assets/img/fintech_project.jpg
+
 importance: 1
 category: work
 related_publications: false
