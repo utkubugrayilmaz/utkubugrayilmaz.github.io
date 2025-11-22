@@ -2,7 +2,7 @@
 layout: page
 title: Real-Time Face Emotion Recognition System
 description: A Deep Learning application using custom CNN architectures for real-time emotion analysis and automated attendance tracking.
-img: assets/img/face_emotion.jpg
+
 importance: 3
 category: work
 related_publications: false
