@@ -4,7 +4,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -429,51 +429,26 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-ai-driven-bist100-financial-analysis-system",
+          title: 'AI-Driven BIST100 Financial Analysis System',
+          description: "A comprehensive stock analysis platform using LightGBM and LLMs for signal generation and news sentiment analysis.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_fintech/";
+            },},{id: "projects-aytar-autonomous-search-amp-rescue-drone",
+          title: 'Aytar - Autonomous Search &amp;amp; Rescue Drone',
+          description: "A voice-based emergency signal recognition system developed for Teknofest, designed to accelerate search and rescue operations.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_aytar_drone/";
+            },},{id: "projects-real-time-face-emotion-recognition-system",
+          title: 'Real-Time Face Emotion Recognition System',
+          description: "A Deep Learning application using custom CNN architectures for real-time emotion analysis and automated attendance tracking.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_face_emotion/";
+            },},{id: "projects-postax-ml-enhanced-smart-mail-system",
+          title: 'PostaX - ML-Enhanced Smart Mail System',
+          description: "An intelligent IoT mailbox system utilizing machine learning for anomaly detection and secure hardware integration.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/4_postax/";
             },},{
         id: 'social-cv',
         title: 'CV',
