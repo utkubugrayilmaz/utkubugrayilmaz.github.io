@@ -7,13 +7,13 @@ first_name: Utku Buğra
 middle_name:
 last_name: Yılmaz
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Open to collaboration on AI, Backend, and IoT projects.
 description: >
-  AI & Computer Engineer | Maker | Tech Maniac
+  Computer Engineer | AI & Backend Developer | IoT & Embedded Systems Enthusiast. Portfolio of Utku Buğra Yılmaz.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
-keywords: computer-engineer, ai-engineer, portfolio, utku-bugra-yilmaz
+keywords: computer-engineer, ai-engineer, backend-developer, iot, python, fastapi, machine-learning, deep-learning, image-processing, utku-bugra-yilmaz
 lang: en
 icon: ⚛️
 
@@ -263,8 +263,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Yılmaz, Yilmaz]
+  first_name: [Utku Buğra, Utku]
 
   style: apa
   locale: en
