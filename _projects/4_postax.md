@@ -2,7 +2,7 @@
 layout: page
 title: PostaX - ML-Enhanced Smart Mail System
 description: An intelligent IoT mailbox system utilizing machine learning for anomaly detection and secure hardware integration.
-
+img: assets/img/postax.jpg
 importance: 4
 category: work
 related_publications: false
