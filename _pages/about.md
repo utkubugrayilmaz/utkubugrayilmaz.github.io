@@ -13,6 +13,7 @@ profile:
 
 selected_papers: false
 social: true
+cv_pdf: utku-bugra-yilmaz-cv.pdf
 
 announcements:
   enabled: false
