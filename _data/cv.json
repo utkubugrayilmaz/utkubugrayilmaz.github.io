@@ -1,0 +1,136 @@
+{
+  "basics": {
+    "name": "Utku Buğra Yılmaz",
+    "label": "Computer Engineer | AI & Backend Developer",
+    "image": "assets/img/utku-bugra-yilmaz-ai-engineer.jpg",
+    "email": "utkubugrayil@gmail.com",
+    "phone": "+90 505 640 1843",
+    "url": "https://utkubugrayilmaz.github.io",
+    "summary": "Computer Engineer specializing in Artificial Intelligence, Backend Development, and Embedded Systems. Experienced in building high-performance ML models for FinTech, autonomous drone systems, and secure IoT solutions.",
+    "location": {
+      "city": "Ankara",
+      "countryCode": "TR",
+      "region": "Turkey"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Utku Buğra Yılmaz",
+        "url": "https://www.linkedin.com/in/utku-bugra-yilmaz/"
+      },
+      {
+        "network": "GitHub",
+        "username": "utkubugrayilmaz",
+        "url": "https://github.com/utkubugrayilmaz"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Freelance FinTech Project",
+      "position": "Machine Learning & Backend Engineer",
+      "startDate": "2025-09-01",
+      "endDate": "2025-10-01",
+      "summary": "End-to-end development of an AI-driven financial analysis system for BIST100 stocks.",
+      "highlights": [
+        "Developed a LightGBM model achieving ~0.67 Weighted F1-Score and 0.97 Sharpe Ratio.",
+        "Built scalable backend infrastructure with FastAPI, PostgreSQL, and Docker.",
+        "Integrated DeepSeek LLM for automated multilingual news summarization."
+      ]
+    },
+    {
+      "name": "Giresun University IT Department",
+      "position": "Part-Time Software Engineer",
+      "startDate": "2024-09-01",
+      "endDate": "2025-06-01",
+      "summary": "Research and development on data security and novel algorithms.",
+      "highlights": [
+        "Researched novel metaheuristic algorithms.",
+        "Developed innovative steganography methods using Python and OpenCV."
+      ]
+    },
+    {
+      "name": "MAN Türkiye A.Ş",
+      "position": "Software Development Intern",
+      "startDate": "2023-07-01",
+      "endDate": "2023-08-01",
+      "summary": "Backend development for automotive R&D projects.",
+      "highlights": [
+        "Developed backend systems using C# and SQL.",
+        "Configured and tested AUTOSAR stacks for ECU integration."
+      ]
+    },
+    {
+      "name": "Bionluk / Fiverr",
+      "position": "Freelance Developer",
+      "startDate": "2022-01-01",
+      "endDate": "2025-11-01",
+      "summary": "Delivered 50+ projects in game development and coding tutorials.",
+      "highlights": [
+        "Developed Unity-based games and Python automation scripts.",
+        "Maintained a 4.9/5 client satisfaction rating."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Giresun University",
+      "area": "Computer Engineering (BSc)",
+      "studyType": "Bachelor",
+      "startDate": "2021-10-01",
+      "endDate": "2025-06-01",
+      "score": "3.26/4.00"
+    }
+  ],
+  "projects": [
+    {
+      "name": "PostaX",
+      "description": "ML-Enhanced Smart Mail System",
+      "highlights": [
+        "IoT system with Arduino & ESP32CAM.",
+        "Anomaly detection algorithms for security."
+      ],
+      "url": "https://utkubugrayilmaz.github.io/projects/4_postax/"
+    },
+    {
+      "name": "Aytar Drone",
+      "description": "Autonomous Search & Rescue Drone",
+      "highlights": [
+        "Teknofest Semi-Finalist (90/100 Score).",
+        "Voice recognition system using MFCC analysis."
+      ],
+      "url": "https://utkubugrayilmaz.github.io/projects/2_aytar_drone/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "AI & Data Science",
+      "level": "Advanced",
+      "keywords": ["Python", "TensorFlow", "LightGBM", "OpenCV", "DeepFace"]
+    },
+    {
+      "name": "Backend & DevOps",
+      "level": "Advanced",
+      "keywords": ["FastAPI", "Docker", "PostgreSQL", "Git", "REST APIs"]
+    },
+    {
+      "name": "Hardware",
+      "level": "Intermediate",
+      "keywords": ["Arduino", "ESP32", "Raspberry Pi", "Embedded Systems"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Turkish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "B2 - Professional"
+    },
+    {
+      "language": "German",
+      "fluency": "A1 - Beginner"
+    }
+  ]
+}
