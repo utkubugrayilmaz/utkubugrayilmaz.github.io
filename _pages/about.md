@@ -51,3 +51,4 @@ I am currently open to collaboration opportunities in **AI** and **Backend Engin
 <br>
 
 > **Fun Fact:** Outside of coding, I am building a JARVIS-like voice assistant for my home and I play the *Dombra* (an ancient Turkic instrument). 🎸
+
