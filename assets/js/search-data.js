@@ -44,7 +44,117 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-i̇ris-veri-seti-üzerinde-makine-öğrenimi-modellerinin-karşılaştırmalı-analizi-ve-shap",
+        
+          title: 'İris Veri Seti Üzerinde Makine Öğrenimi Modellerinin Karşılaştırmalı Analizi ve SHAP… <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Read my article on Medium.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@utkubugrayil/i%CC%87ris-veri-seti-%C3%BCzerinde-makine-%C3%B6%C4%9Frenimi-modellerinin-kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rmal%C4%B1-analizi-ve-shap-b329031014ad?source=rss-a35dea5605ea------2", "_blank");
+          
+        },
+      },{id: "post-autosar-a-giriş-otomotiv-yazılımında-standardizasyonun-gücü",
+        
+          title: 'Autosar’a Giriş: Otomotiv Yazılımında Standardizasyonun Gücü <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Read my article on Medium.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@utkubugrayil/autosara-giri%C5%9F-otomotiv-yaz%C4%B1l%C4%B1m%C4%B1nda-standardizasyonun-g%C3%BCc%C3%BC-557c75ed0010?source=rss-a35dea5605ea------2", "_blank");
+          
+        },
+      },{id: "post-biçimsel-diller-ve-otomata-teorisi-2",
+        
+          title: 'Biçimsel Diller ve Otomata Teorisi — 2 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Read my article on Medium.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@utkubugrayil/bi%C3%A7imsel-diller-ve-otomata-teorisi-2-cc20477a5f5f?source=rss-a35dea5605ea------2", "_blank");
+          
+        },
+      },{id: "post-bi̇çi̇msel-di̇ller-ve-otomata-teori̇si̇",
+        
+          title: 'BİÇİMSEL DİLLER VE OTOMATA TEORİSİ <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Read my article on Medium.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@utkubugrayil/bi%CC%87%C3%A7i%CC%87msel-di%CC%87ller-ve-otomata-teori%CC%87si%CC%87-34b6dbe68928?source=rss-a35dea5605ea------2", "_blank");
+          
+        },
+      },{id: "post-biçimsel-diller-ve-otomata-teorisi-1",
+        
+          title: 'Biçimsel Diller ve Otomata Teorisi — 1 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Read my article on Medium.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@utkubugrayil/bi%C3%A7imsel-diller-ve-otomata-teorisi-1-a122f9808ca6?source=rss-a35dea5605ea------2", "_blank");
+          
+        },
+      },{id: "post-metasezgisel-algoritmalar-modern-problemlerin-anahtarı",
+        
+          title: 'Metasezgisel Algoritmalar: Modern Problemlerin Anahtarı <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Read my article on Medium.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@utkubugrayil/metasezgisel-algoritmalar-modern-problemlerin-anahtar%C4%B1-ea4eba6bd781?source=rss-a35dea5605ea------2", "_blank");
+          
+        },
+      },{id: "post-unseen-messages-with-lsb-steganography-the-art-of-hiding-information-in-plain-sight",
+        
+          title: 'Unseen Messages with LSB Steganography: The Art of Hiding Information in Plain Sight... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Read my article on Medium.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@utkubugrayil/unseen-messages-with-lsb-steganography-the-art-of-hiding-information-in-plain-sight-d546fd905181?source=rss-a35dea5605ea------2", "_blank");
+          
+        },
+      },{id: "post-sezar-ne-demiş-iğoglö-istgzö-bğpglö",
+        
+          title: 'Sezar Ne Demiş? (Iğoglö, Istgzö, Bğpglö) <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Read my article on Medium.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@utkubugrayil/sezar-ne-demi%C5%9F-i%C4%9Fogl%C3%B6-istgz%C3%B6-b%C4%9Fpgl%C3%B6-3ba13d8c5bb0?source=rss-a35dea5605ea------2", "_blank");
+          
+        },
+      },{id: "post-python-da-bu-hataları-asla-yapmayın-kodunuzu-bozan-5-önemli-yanlış",
+        
+          title: 'Python’da Bu Hataları Asla Yapmayın: Kodunuzu Bozan 5 Önemli Yanlış! <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Read my article on Medium.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@utkubugrayil/pythonda-bu-hatalar%C4%B1-asla-yapmay%C4%B1n-kodunuzu-bozan-5-%C3%B6nemli-yanl%C4%B1%C5%9F-77b89968c27f?source=rss-a35dea5605ea------2", "_blank");
+          
+        },
+      },{id: "post-derin-öğrenme-ile-görüntü-i̇şleme-temel-kavramlar-ve-uygulamalar",
+        
+          title: 'Derin Öğrenme ile Görüntü İşleme: Temel Kavramlar ve Uygulamalar <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Read my article on Medium.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@utkubugrayil/derin-%C3%B6%C4%9Frenme-ile-g%C3%B6r%C3%BCnt%C3%BC-i%CC%87%C5%9Fleme-temel-kavramlar-ve-uygulamalar-5ade5a4c1cd8?source=rss-a35dea5605ea------2", "_blank");
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
