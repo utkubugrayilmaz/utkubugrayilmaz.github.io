@@ -92,8 +92,8 @@ bing_site_verification:
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: blog
+blog_description: My notes on Artificial Intelligence, Backend, and Technology.
 permalink: /blog/:year/:title/
 lsi: false
 
@@ -237,7 +237,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories]
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"]
+display_tags: []
 display_categories: ["external-services"]
 
 # -----------------------------------------------------------------------------
