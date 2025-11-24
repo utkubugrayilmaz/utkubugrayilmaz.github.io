@@ -1,0 +1,42 @@
+name: Update Medium Posts
+
+on:
+  schedule:
+    - cron: '0 8 * * 1' # Her Pazartesi sabah 8'de çalışır
+  workflow_dispatch: # Elle tetiklemek için
+
+permissions:
+  contents: write
+
+jobs:
+  update-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser pandas
+
+      - name: Fetch Medium Posts
+        run: |
+          # Bu script al-folio temasının içinde standart olarak gelir
+          # Eğer hata verirse script yolunu kontrol etmemiz gerekir
+          python bin/entry_point.py --source medium.com
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          # _posts klasörüne yeni gelenleri ekle
+          git add _posts/
+          # Değişiklik varsa commit at, yoksa hata verme
+          git commit -m "Update blog posts from Medium" || echo "No changes to commit"
+          git push
