@@ -2,8 +2,8 @@ name: Update Medium Posts
 
 on:
   schedule:
-    - cron: '0 8 * * 1' # Her Pazartesi sabah 8'de çalışır
-  workflow_dispatch: # Elle tetiklemek için
+    - cron: '0 8 * * *' # Her gün sabah 08:00'de (UTC) çalışır
+  workflow_dispatch:
 
 permissions:
   contents: write
