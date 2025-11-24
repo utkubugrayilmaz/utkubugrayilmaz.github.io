@@ -65,7 +65,7 @@ og_image:
 # -----------------------------------------------------------------------------
 # Analytics
 # -----------------------------------------------------------------------------
-google_analytics:
+google_analytics: G-DKNZZ212G3
 cronitor_analytics:
 pirsch_analytics:
 openpanel_analytics:
@@ -286,7 +286,7 @@ lazy_loading_images: true
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false
+enable_google_analytics: true
 enable_cronitor_analytics: false
 enable_pirsch_analytics: false
 enable_openpanel_analytics: false
