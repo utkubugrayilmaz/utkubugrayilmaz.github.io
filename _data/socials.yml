@@ -1,15 +1,33 @@
-- name: Email
-  url: mailto:utkubugrayil@gmail.com
-  icon: fa-solid fa-envelope
+# -----------------------------------------------------------------------------
+# Social Media Links
+# -----------------------------------------------------------------------------
 
-- name: GitHub
-  url: https://github.com/utkubugrayilmaz
-  icon: fa-brands fa-github
+# CV PDF Dosyanın Yeri
+cv_pdf: assets/pdf/utku-bugra-yilmaz-cv.pdf
 
-- name: LinkedIn
-  url: https://www.linkedin.com/in/utku-bugra-yilmaz/
-  icon: fa-brands fa-linkedin
+# İletişim Bilgilerin
+email: utkubugrayil@gmail.com
+github_username: utkubugrayilmaz
+linkedin_username: utku-bugra-yilmaz
+medium_username: utkubugrayil
 
-- name: Medium
-  url: https://medium.com/@utkubugrayil
-  icon: fa-brands fa-medium
+# -----------------------------------------------------------------------------
+# Kapatılan / Kullanılmayan Özellikler (Einstein ve Gereksizler)
+# -----------------------------------------------------------------------------
+# Aşağıdaki satırların başında # olduğu için sitede görünmezler.
+
+# inspirehep_id: 1010907
+# scholar_userid: qc6CJjYAAAAJ
+rss_icon: false # RSS ikonunu kapattık
+
+# Diğer platformlar (İhtiyacın olursa başındaki # işaretini kaldırıp kullanabilirsin)
+# x_username: 
+# instagram_id: 
+# youtube_id: 
+# research_gate_profile: 
+
+# Özel Linkler (Bionluk vb. için burayı kullanabiliriz ama şimdilik kapalı kalsın, hata vermesin)
+# custom_social:
+#   logo: 
+#   title: 
+#   url:
