@@ -422,6 +422,34 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_postax/";
             },},{
+        id: 'social-',
+        title: '',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-',
+        title: '',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-',
+        title: '',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-',
+        title: '',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
