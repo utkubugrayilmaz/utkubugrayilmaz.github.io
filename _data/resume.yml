@@ -9,7 +9,7 @@ basics:
     city: Ankara
     countryCode: TR
     region: Turkey
-  summary: "Computer Engineer specializing in Artificial Intelligence, Backend Development, and Embedded Systems."
+  summary: "Computer Engineer specializing in Artificial Intelligence, Backend Development, and Embedded Systems. Experienced in building high-performance ML models for FinTech, autonomous drone systems, and secure IoT solutions."
   profiles:
     - network: LinkedIn
       username: Utku Buğra Yılmaz
@@ -17,26 +17,29 @@ basics:
     - network: GitHub
       username: utkubugrayilmaz
       url: https://github.com/utkubugrayilmaz
+    - network: Medium
+      username: Medium
+      url: https://medium.com/
 
 work:
-  - name: Noykara
+  - name: Freelance FinTech Project
     position: Machine Learning & Backend Engineer
     startDate: "2025-09-01"
     endDate: "2025-10-01"
     summary: "Remote | Developed AI-driven financial analysis systems."
     highlights:
-      - "Developed a ML model for BIST100 stocks (0.67 F1-Score)."
-      - "Built backend infrastructure with FastAPI and Docker."
-      - "Implemented DeepSeek LLM for news summarization."
+      - "Developed a ML model for BIST100 stocks achieving ~0.67 Weighted F1-Score."
+      - "Built scalable backend infrastructure with FastAPI, PostgreSQL, and Docker."
+      - "Integrated DeepSeek LLM for automated multilingual news summarization."
 
   - name: Giresun University IT Department
     position: Part-Time Software Engineer
     startDate: "2024-09-01"
     endDate: "2025-06-01"
-    summary: "Giresun, Turkey | Research on data security."
+    summary: "Giresun, Turkey | Research on data security and algorithms."
     highlights:
-      - "Researched novel metaheuristic algorithms."
-      - "Developed steganography methods using Python."
+      - "Researched novel metaheuristic algorithms for optimization problems."
+      - "Developed innovative steganography methods using Python and OpenCV."
 
   - name: MAN Türkiye A.Ş
     position: Software Development Intern
@@ -44,8 +47,26 @@ work:
     endDate: "2023-08-01"
     summary: "Ankara, Turkey | Automotive software development."
     highlights:
-      - "Developed backend systems using C# and SQL."
-      - "Tested AUTOSAR stacks for embedded systems."
+      - "Developed backend systems using C# and SQL in the R&D department."
+      - "Configured and tested AUTOSAR stacks (BSW modules) for embedded systems."
+
+  - name: Giresun University IT Department
+    position: Software Development Intern
+    startDate: "2024-07-01"
+    endDate: "2024-08-01"
+    summary: "Giresun, Turkey | Computer Vision Project."
+    highlights:
+      - "Developed a Face Recognition & Emotion Analysis System with custom-trained CNN."
+      - "Achieved 87% accuracy in real-time emotion detection."
+
+  - name: Freelance Developer & Tutor
+    position: Bionluk / Superprof
+    startDate: "2022-01-01"
+    endDate: "2025-11-24" # Present
+    summary: "Remote | Game Development & Programming Tutoring."
+    highlights:
+      - "Delivered 50+ projects in game development (Unity) and automation scripts."
+      - "Mentored 15+ students in Python, Java, and Algorithms."
 
 education:
   - institution: Giresun University
@@ -54,21 +75,33 @@ education:
     startDate: "2021-10-01"
     endDate: "2025-06-01"
     score: "3.26/4.00"
+  
+  - institution: Ankara Akyurt Anadolu High School
+    area: Science & Math
+    studyType: High School
+    startDate: "2016-09-01"
+    endDate: "2020-06-01"
 
 projects:
   - name: PostaX
-    description: ML-Enhanced Smart Mail System
+    description: ML-Enhanced Smart Mail System (Graduation Project)
     highlights:
-      - "IoT system with Arduino & ESP32CAM."
-      - "Anomaly detection for unauthorized access."
+      - "IoT system with Arduino & ESP32CAM using Master-Slave architecture."
+      - "Anomaly detection algorithms for unauthorized access prevention."
     url: "https://utkubugrayilmaz.github.io/projects/"
 
   - name: Aytar Drone
     description: Autonomous Search & Rescue Drone
     highlights:
       - "Teknofest Semi-Finalist (90/100 Score)."
-      - "Voice recognition system using MFCC analysis."
+      - "Voice recognition system using MFCC analysis for emergency signals."
     url: "https://utkubugrayilmaz.github.io/projects/"
+
+  - name: Face Emotion Recognition
+    description: Internship Project
+    highlights:
+      - "Real-time emotion analysis system using custom CNN architecture."
+      - "Integrated with automated attendance tracking system."
 
 skills:
   - name: AI & Data Science
@@ -77,7 +110,9 @@ skills:
       - Python
       - LightGBM
       - TensorFlow
+      - Scikit-learn
       - OpenCV
+      - Pandas
 
   - name: Backend & DevOps
     level: Advanced
@@ -86,6 +121,8 @@ skills:
       - Docker
       - PostgreSQL
       - Git
+      - REST APIs
+      - MLOps
 
   - name: Hardware
     level: Intermediate
@@ -93,17 +130,38 @@ skills:
       - Arduino
       - ESP32
       - Raspberry Pi
+      - Embedded Systems
 
 languages:
   - language: Turkish
     fluency: Native
   - language: English
-    fluency: B2
+    fluency: B2 - Professional
+  - language: German
+    fluency: A1 - Beginner
 
 certificates:
-  - name: Autosar Architecture
+  - name: CS50's Introduction to Programming with Python
     date: "2024-01-01"
+    issuer: HarvardX
+    url: "" # Varsa sertifika linkini ekle
+  
+  - name: Autosar Architecture & Automotive Software
+    date: "2024-01-01"
+    issuer: Udemy
     url: ""
-  - name: Advanced Python Programming
+
+  - name: Python Bootcamp & AI Introduction
     date: "2023-01-01"
+    issuer: Global AI Hub
+    url: ""
+
+  - name: CS50's Introduction to Game Development
+    date: "2023-01-01"
+    issuer: HarvardX
+    url: ""
+
+  - name: Ethical Hacking with Kali Linux
+    date: "2023-01-01"
+    issuer: Udemy
     url: ""
