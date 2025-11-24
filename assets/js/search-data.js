@@ -461,7 +461,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://bionluk.com/utkubugrayilmaz", "_blank");
+          window.open("https://bionluk.com/imthebug", "_blank");
         },
       },{
         id: 'social-rss',
