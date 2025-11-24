@@ -422,32 +422,46 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_postax/";
             },},{
-        id: 'social-',
-        title: '',
+        id: 'social-cv',
+        title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("/assets/pdf/utku-bugra-yilmaz-cv.pdf", "_blank");
         },
       },{
-        id: 'social-',
-        title: '',
+        id: 'social-email',
+        title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("mailto:%75%74%6B%75%62%75%67%72%61%79%69%6C@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-',
-        title: '',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://github.com/utkubugrayilmaz", "_blank");
         },
       },{
-        id: 'social-',
-        title: '',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("https://www.linkedin.com/in/utku-bugra-yilmaz", "_blank");
+        },
+      },{
+        id: 'social-medium',
+        title: 'Medium',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://medium.com/@utkubugrayil", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
