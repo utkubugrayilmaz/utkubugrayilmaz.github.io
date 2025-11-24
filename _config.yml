@@ -629,15 +629,9 @@ third_party_libraries:
 #     json: assets/json/resume.json # it can also be an url
 
 jsonresume:
-  - basics
   - work
   - education
-  - publications
   - projects
-  - volunteer
-  - awards
-  - certificates
   - skills
   - languages
-  - interests
-  - references
+  - certificates
