@@ -17,43 +17,63 @@ basics:
     - network: GitHub
       username: utkubugrayilmaz
       url: https://github.com/utkubugrayilmaz
+    - network: Medium
+      username: Medium Profile
+      url: https://medium.com/
 
 work:
-  - name: Freelance FinTech Project
+  - name: Freelance
     position: Machine Learning & Backend Engineer
     startDate: 2025-09-01
     endDate: 2025-10-01
-    summary: "End-to-end development of an AI-driven financial analysis system for BIST100 stocks."
+    summary: "Remote | Developed AI-driven financial analysis systems."
     highlights:
-      - "Developed a LightGBM model achieving ~0.67 Weighted F1-Score and 0.97 Sharpe Ratio in backtests."
-      - "Built scalable backend infrastructure with FastAPI, PostgreSQL, and Docker."
-      - "Integrated DeepSeek LLM for automated multilingual news summarization and sentiment analysis."
+      - "Developed a machine learning model for BIST100 stocks producing signals with ~0.67 Weighted F1-Score and 0.97 Sharpe ratio."
+      - "Built backend infrastructure with FastAPI, PostgreSQL, and Docker."
+      - "Implemented multilingual news summarization using DeepSeek LLM."
+      - "Produced professional MLOps documentation including Model Cards and runbooks."
 
   - name: Giresun University IT Department
     position: Part-Time Software Engineer
     startDate: 2024-09-01
     endDate: 2025-06-01
-    summary: "Research and development on data security and novel algorithms."
+    summary: "Giresun, Turkey | Research on data security."
     highlights:
-      - "Researched novel metaheuristic algorithms for optimization problems."
-      - "Developed innovative steganography methods using Python and OpenCV for enhanced data security."
+      - "Researched novel metaheuristic algorithms and developed innovative steganography methods."
+      - "Used MATLAB, Python (OpenCV/Scikit-learn) and Cryptographic Libraries."
 
   - name: MAN Türkiye A.Ş
     position: Software Development Intern
     startDate: 2023-07-01
     endDate: 2023-08-01
-    summary: "Backend development for automotive R&D projects."
+    summary: "Ankara, Turkey | Automotive software development."
     highlights:
-      - "Developed backend systems using C# and SQL."
+      - "Developed backend systems using C# and SQL in the R&D department."
       - "Configured and tested AUTOSAR stacks (BSW modules) for automotive embedded systems."
 
-  - name: Bionluk / Fiverr
-    position: Freelance Developer
-    startDate: 2022-01-01
-    endDate: 2025-11-01
-    summary: "Delivered 50+ projects in game development and coding tutorials."
+  - name: Giresun University IT Department
+    position: Software Development Intern
+    startDate: 2024-07-01
+    endDate: 2024-08-01
+    summary: "Giresun, Turkey"
     highlights:
-      - "Developed Unity-based games and Python automation scripts."
+      - "Developed a Face Recognition & Emotion Analysis System achieving 87% accuracy."
+
+  - name: Superprof
+    position: Online Tutor (Math & Software)
+    startDate: 2023-04-01
+    endDate: 2025-11-24 # Present
+    summary: "Remote | Mentored 15+ students."
+    highlights:
+      - "Taught Python, Java, Algorithms, and Calculus."
+
+  - name: Bionluk / Fiverr
+    position: Freelance Game Developer
+    startDate: 2022-01-01
+    endDate: 2025-11-24 # Present
+    summary: "Remote | Delivered 50+ projects."
+    highlights:
+      - "Developed Unity-based games and provided coding tutorials."
       - "Maintained a 4.9/5 client satisfaction rating."
 
 education:
@@ -63,42 +83,52 @@ education:
     startDate: 2021-10-01
     endDate: 2025-06-01
     score: "3.26/4.00"
+  - institution: Ankara Akyurt Anadolu High School
+    area: High School
+    startDate: 2016-09-01
+    endDate: 2020-06-01
 
 projects:
   - name: PostaX
     description: ML-Enhanced Smart Mail System (Graduation Project)
     highlights:
       - "IoT system with Arduino & ESP32CAM using Master-Slave architecture."
-      - "Anomaly detection algorithms for unauthorized access prevention."
-      - "Motion detection and solenoid lock integration."
-    url: https://utkubugrayilmaz.github.io/projects/4_postax/
+      - "Anomaly detection for unauthorized access prevention."
+      - "Tech: Arduino, ESP32, RFID, ML, Computer Vision."
+    url: https://utkubugrayilmaz.github.io/projects/
 
   - name: Aytar Drone
     description: Autonomous Search & Rescue Drone
     highlights:
       - "Teknofest Semi-Finalist (90/100 Score)."
       - "Voice recognition system using MFCC analysis for emergency signals."
-    url: https://utkubugrayilmaz.github.io/projects/2_aytar_drone/
+      - "Tech: Python, SpeechRecognition, OpenCV, MFCC."
+    url: https://utkubugrayilmaz.github.io/projects/
 
-  - name: Face Emotion Recognition
-    description: Real-Time Emotion Analysis System
+  - name: Steganography Research
+    description: Novel Method Development
     highlights:
-      - "Achieved 87% accuracy with custom CNN architecture."
-      - "Integrated with automated attendance tracking system."
-    url: https://utkubugrayilmaz.github.io/projects/3_face_emotion/
+      - "Developing a new steganography method to enhance data security in digital images."
+      - "Tech: Python, OpenCV, Cryptographic Libraries."
+
+  - name: Metaheuristic Optimization
+    description: Research Project
+    highlights:
+      - "Working on the development of a new metaheuristic optimization algorithm."
+      - "Tech: MATLAB, Python."
 
 skills:
   - name: AI & Data Science
     level: Advanced
     keywords:
       - Python
-      - TensorFlow
       - LightGBM
+      - TensorFlow
       - Scikit-learn
       - OpenCV
       - Pandas
-      - DeepFace
-      - LLMs
+      - DeepSeek LLM
+      - SHAP
 
   - name: Backend & DevOps
     level: Advanced
@@ -108,42 +138,50 @@ skills:
       - PostgreSQL
       - Git
       - REST APIs
-      - SQL
+      - MLOps
 
-  - name: Hardware & IoT
+  - name: Hardware
     level: Intermediate
     keywords:
       - Arduino
       - ESP32
       - Raspberry Pi
-      - C++
       - Embedded Systems
 
   - name: Languages
     level: Intermediate
     keywords:
-      - C#
-      - Java
-      - MATLAB
+      - Turkish (Native)
+      - English (B2)
+      - German (A1)
 
-languages:
-  - language: Turkish
-    fluency: Native
-  - language: English
-    fluency: B2 - Professional
-  - language: German
-    fluency: A1 - Beginner
-
+# TARİH FORMATI HATASI BURADAYDI. ŞİMDİ DÜZELTİLDİ.
 certificates:
-  - name: Autosar Architecture
-    date: Udemy
+  - name: Autosar Architecture (Learn from Scratch)
+    date: 2024-01-01
+    issuer: Udemy
     url: ""
   - name: Advanced Python Programming
-    date: Udemy
+    date: 2023-01-01
+    issuer: Udemy
     url: ""
-  - name: Complete Java Developer
-    date: Udemy
+  - name: Complete Java Developer Course
+    date: 2023-01-01
+    issuer: Udemy
     url: ""
-  - name: Introduction to Game Development
-    date: HarvardX (CS50)
+  - name: Ethical Hacking with Kali Linux
+    date: 2023-01-01
+    issuer: Udemy
+    url: ""
+  - name: Unity Game Engine Course
+    date: 2022-01-01
+    issuer: Udemy / GameDev.tv
+    url: ""
+  - name: Introduction to Game Development (CS50)
+    date: 2022-01-01
+    issuer: HarvardX
+    url: ""
+  - name: Python Bootcamp
+    date: 2022-01-01
+    issuer: Global AI Hub
     url: ""
