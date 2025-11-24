@@ -26,30 +26,29 @@ latest_posts:
   limit: 3
 ---
 
-I am a **Computer Engineer** and **Artificial Intelligence Engineer** based in Ankara. I graduated from **Giresun University** (GPA: 3.26/4) with a focus on building intelligent systems that bridge software and real-world applications.
+I am a **Computer Engineer** based in Ankara, passionate about bridging the gap between theoretical AI and production-grade software. I graduated from **Giresun University** (GPA: 3.26/4.00) with a strong foundation in building intelligent systems that solve real-world problems.
 
-My engineering philosophy is simple: **"Build scalable, intelligent solutions."** I specialize in **Machine Learning**, **Backend Development**, and **Embedded Systems**. I don't just train models; I deploy them into production using modern tech stacks like **FastAPI**, **Docker**, and **PostgreSQL**.
+My engineering philosophy is simple: **“Build scalable, intelligent solutions.”**
 
-### Professional Experience
+I specialize in **Machine Learning**, **Backend Development**, and **Embedded Systems**. I don’t just train models; I architect the entire lifecycle—from data engineering to deploying scalable APIs using **FastAPI**, **Docker**, and **PostgreSQL**.
 
--**Freelance Machine Learning & Backend Engineer** (FinTech Project)
-I architected and developed a comprehensive financial analysis system for a startup project targeting **BIST100 stocks**. This was an end-to-end development role where I delivered:
-* **High-Performance ML Models:** Achieved **~0.67 Weighted F1-Score** and **0.97 Sharpe Ratio** in backtests using LightGBM.
-* **LLM Integration:** Implemented **DeepSeek LLM** for automated multilingual news summarization and sentiment analysis.
-* **Scalable Backend:** Built a robust API infrastructure using **FastAPI** and **Docker** to serve real-time trading predictions.
+### Professional Journey
 
--Previously, at **MAN Türkiye A.Ş**, I gained experience in the automotive industry, working on **AUTOSAR** stacks and R&D backend systems.
+My experience spans from the automotive industry to high-frequency FinTech applications.
+* **In FinTech:** I architected an end-to-end financial analysis system for **BIST100 stocks**. By leveraging ensemble learning techniques (LightGBM, XGBoost) and integrating **LLMs (DeepSeek)** for sentiment analysis, I delivered a system achieving a **0.97 Sharpe Ratio**.
+* **In Automotive:** At **MAN Türkiye A.Ş**, I gained valuable experience in **R&D**, working with **AUTOSAR** stacks and optimizing backend systems for embedded environments.
+* **In Research:** I have actively contributed to academic research in **Steganography** and **Metaheuristic Algorithms**, developing novel methods for data security.
 
-### Technical Stack
+### Technical Arsenal
 
-* **AI & Data Science:** Python, TensorFlow, LightGBM, Scikit-learn, OpenCV, Pandas.
-* **Backend & DevOps:** FastAPI, REST APIs, Docker, Git, PostgreSQL.
-* **Hardware/IoT:** Arduino, ESP32, Raspberry Pi, Sensor Integration.
+* **AI & Data Science:** Python, TensorFlow, Keras, PyTorch, (LightGBM, XGBoost etc..), Scikit-learn, OpenCV, Pandas, NLP, CNN
+* **Backend & DevOps:** FastAPI, REST APIs, Docker, Git, PostgreSQL, SQL, MLOps.
+* **Hardware/IoT:** Arduino, ESP32, Raspberry Pi, Sensor Integration, Embedded C.
 
 I am currently open to collaboration opportunities in **AI** and **Backend Engineering**.
 
 ---
 <br>
 
-> **Fun Fact:** Outside of coding, I am building a JARVIS-like voice assistant for my home and I play the *Dombra* (an ancient Turkic instrument). 🎸
+> **Fun Fact:** Outside of coding, I am building a JARVIS-like voice assistant for my home and I play the *Dombıra* (an ancient Turkic instrument). 🎸
 
