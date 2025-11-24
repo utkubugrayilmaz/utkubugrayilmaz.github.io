@@ -457,6 +457,13 @@ ninja.data = [{
           window.open("https://medium.com/@utkubugrayil", "_blank");
         },
       },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bionluk.com/utkubugrayilmaz", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
