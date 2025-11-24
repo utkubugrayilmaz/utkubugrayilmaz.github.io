@@ -1,0 +1,15 @@
+- name: Email
+  url: mailto:utkubugrayil@gmail.com
+  icon: fa-solid fa-envelope
+
+- name: GitHub
+  url: https://github.com/utkubugrayilmaz
+  icon: fa-brands fa-github
+
+- name: LinkedIn
+  url: https://www.linkedin.com/in/utku-bugra-yilmaz/
+  icon: fa-brands fa-linkedin
+
+- name: Medium
+  url: https://medium.com/@utkubugrayil
+  icon: fa-brands fa-medium
