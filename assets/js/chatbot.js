@@ -58,20 +58,35 @@ const styles = `
         animation: slideIn 0.3s ease;
     }
 
+/* --- MOBİL DÜZELTME --- */
     @media (max-width: 480px) {
         #chat-container {
             position: fixed;
             bottom: 0;
-            right: 0;
+            left: 0;
             width: 100%;
-            height: 100%;
-            max-height: 100%;
+            height: 100%; /* Fallback */
+            height: 100dvh; /* Dynamic Viewport Height - Adres çubuğunu hesaba katar */
+            max-height: 100dvh;
             border-radius: 0;
             z-index: 100000;
+            display: flex;
+            flex-direction: column;
         }
         #utku-chat-widget {
             bottom: 20px;
             right: 20px;
+        }
+        /* Mesaj alanının klavye açılınca sıkışmasını önle */
+        #chat-messages {
+            flex: 1;
+            overflow-y: scroll; /* Mobilde daha iyi scroll için */
+            -webkit-overflow-scrolling: touch;
+        }
+        /* Input alanını her zaman görünür kıl */
+        #chat-input-area {
+            padding-bottom: env(safe-area-inset-bottom, 20px); /* iPhone çentiği için */
+            background: white;
         }
     }
 
