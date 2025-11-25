@@ -1,11 +1,9 @@
-/* Utku AI Chatbot Widget (Mobile Responsive) */
+/* Utku AI Chatbot Widget (Site Uyumlu Geek Tema) */
 
 // ================= AYARLAR =================
-// Render'dan aldığın linki buraya yapıştır (Sonunda / olmasın)
 const API_BASE_URL = "https://utku-ai-bot.onrender.com"; 
 // ===========================================
 
-// 1. Session ID Yönetimi
 function getSessionId() {
     let sessionId = localStorage.getItem("utku_ai_session_id");
     if (!sessionId) {
@@ -15,150 +13,168 @@ function getSessionId() {
     return sessionId;
 }
 
-// 2. CSS Stilleri
+// 2. CSS Stilleri (Site Uyumlu + Geek Dokunuşlar)
 const styles = `
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+    /* Widget Konumu */
     #utku-chat-widget {
         position: fixed;
-        bottom: 20px;
-        right: 20px;
+        bottom: 25px;
+        right: 25px;
         z-index: 99999;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-family: 'JetBrains Mono', monospace; /* Modern Yazılımcı Fontu */
     }
+
+    /* Açma Butonu (Sitenin Mavisi ile Uyumlu) */
     #chat-toggle-btn {
-        background: linear-gradient(135deg, #2563eb, #1e40af);
+        background: #2563eb; /* Sitedeki Mavi */
         color: white;
         border: none;
-        border-radius: 50%;
+        border-radius: 16px; /* Hafif Köşeli (Yazılımcı stili) */
         width: 60px;
         height: 60px;
         cursor: pointer;
-        box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
-        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+        transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         display: flex;
         align-items: center;
         justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
     }
-    #chat-toggle-btn:hover { transform: scale(1.1); }
-    #chat-toggle-btn svg { width: 30px; height: 30px; fill: white; }
+    #chat-toggle-btn:hover { 
+        transform: scale(1.1) rotate(-5deg);
+        background: #1d4ed8; 
+    }
 
+    /* Ana Pencere */
     #chat-container {
         display: none;
         width: 380px;
         height: 600px;
         max-height: 80vh;
-        background: #ffffff;
+        background: #0f172a; /* Koyu Lacivert/Siyah (Modern Dark Mode) */
         border-radius: 16px;
-        box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+        box-shadow: 0 20px 50px rgba(0,0,0,0.3);
         flex-direction: column;
         overflow: hidden;
         position: absolute;
         bottom: 80px;
         right: 0;
-        border: 1px solid #f3f4f6;
-        animation: slideIn 0.3s ease;
+        border: 1px solid #334155;
+        animation: slideIn 0.3s ease-out;
     }
 
-/* --- MOBİL DÜZELTME --- */
+    /* Mobil Uyumluluk (Fix) */
     @media (max-width: 480px) {
         #chat-container {
             position: fixed;
             bottom: 0;
             left: 0;
             width: 100%;
-            height: 100%; /* Fallback */
-            height: 100dvh; /* Dynamic Viewport Height - Adres çubuğunu hesaba katar */
+            height: 100dvh;
             max-height: 100dvh;
             border-radius: 0;
+            border: none;
             z-index: 100000;
-            display: flex;
-            flex-direction: column;
         }
         #utku-chat-widget {
             bottom: 20px;
             right: 20px;
         }
-        /* Mesaj alanının klavye açılınca sıkışmasını önle */
-        #chat-messages {
-            flex: 1;
-            overflow-y: scroll; /* Mobilde daha iyi scroll için */
-            -webkit-overflow-scrolling: touch;
-        }
-        /* Input alanını her zaman görünür kıl */
         #chat-input-area {
-            padding-bottom: env(safe-area-inset-bottom, 20px); /* iPhone çentiği için */
-            background: white;
+            padding-bottom: env(safe-area-inset-bottom, 20px) !important;
         }
     }
 
     @keyframes slideIn {
-        from { opacity: 0; transform: translateY(20px); }
-        to { opacity: 1; transform: translateY(0); }
+        from { opacity: 0; transform: translateY(20px) scale(0.95); }
+        to { opacity: 1; transform: translateY(0) scale(1); }
     }
 
+    /* Header */
     #chat-header {
-        background: linear-gradient(135deg, #2563eb, #1e40af);
+        background: #1e293b;
         color: white;
-        padding: 18px 20px;
-        font-weight: 600;
-        font-size: 16px;
+        padding: 16px 20px;
+        font-size: 14px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        border-bottom: 1px solid #334155;
+        letter-spacing: -0.5px;
     }
 
+    /* Mesaj Alanı */
     #chat-messages {
         flex: 1;
         padding: 20px;
         overflow-y: auto;
-        background: #f8fafc;
+        background: #0f172a;
         display: flex;
         flex-direction: column;
-        gap: 12px;
-        scroll-behavior: smooth;
+        gap: 16px;
     }
 
+    /* Mesaj Balonları */
     .message {
-        max-width: 85%;
+        max-width: 88%;
         padding: 12px 16px;
-        border-radius: 16px;
-        font-size: 14px;
-        line-height: 1.5;
+        font-size: 13px;
+        line-height: 1.6;
         position: relative;
         word-wrap: break-word;
+        border-radius: 12px;
     }
+    
+    /* Bot Mesajı */
     .bot-msg {
-        background: white;
-        color: #1e293b;
+        background: #1e293b;
+        color: #e2e8f0;
         align-self: flex-start;
-        border-bottom-left-radius: 4px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        border: 1px solid #e2e8f0;
+        border-bottom-left-radius: 2px;
+        border: 1px solid #334155;
     }
+    .bot-msg::before {
+        content: "AI";
+        font-size: 10px;
+        color: #94a3b8;
+        display: block;
+        margin-bottom: 4px;
+        font-weight: bold;
+    }
+
+    /* Kullanıcı Mesajı */
     .user-msg {
         background: #2563eb;
         color: white;
         align-self: flex-end;
-        border-bottom-right-radius: 4px;
-        box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+        border-bottom-right-radius: 2px;
+        box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
     }
 
+    /* Input Alanı */
     #chat-input-area {
-        padding: 15px;
-        background: white;
-        border-top: 1px solid #e2e8f0;
+        padding: 16px;
+        background: #1e293b;
+        border-top: 1px solid #334155;
         display: flex;
-        gap: 10px;
+        gap: 12px;
         align-items: center;
     }
+    
     #chat-input {
         flex: 1;
-        padding: 12px 15px;
-        border: 1px solid #cbd5e1;
-        border-radius: 25px;
+        padding: 12px;
+        background: #0f172a;
+        border: 1px solid #334155;
+        border-radius: 8px;
+        color: white;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 13px;
         outline: none;
-        font-size: 14px;
-        transition: border-color 0.2s;
+        transition: border 0.2s;
     }
     #chat-input:focus { border-color: #2563eb; }
     
@@ -166,62 +182,61 @@ const styles = `
         background: #2563eb;
         color: white;
         border: none;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
+        border-radius: 8px;
+        padding: 10px 16px;
         cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        font-weight: bold;
+        font-family: 'JetBrains Mono', monospace;
         transition: background 0.2s;
     }
     #send-btn:hover { background: #1d4ed8; }
-    #send-btn:disabled { background: #94a3b8; cursor: not-allowed; }
+    #send-btn:disabled { background: #475569; cursor: not-allowed; }
     
     .typing-indicator {
-        font-size: 12px;
-        color: #64748b;
-        margin-left: 10px;
-        margin-bottom: 5px;
+        font-size: 11px;
+        color: #94a3b8;
+        margin-left: 20px;
+        margin-bottom: 10px;
         display: none;
-        font-style: italic;
     }
+    .typing-indicator::after {
+        content: '...';
+        animation: blink 1.5s infinite;
+    }
+    @keyframes blink { 0% { opacity: .2; } 20% { opacity: 1; } 100% { opacity: .2; } }
 `;
 
-// 3. HTML Yapısı
+// 3. HTML Yapısı (Güncelledim)
 const html = `
     <div id="utku-chat-widget">
         <div id="chat-container">
             <div id="chat-header">
                 <div style="display:flex; align-items:center; gap:10px;">
-                    <span style="font-size:20px;">🤖</span>
+                    <div style="width:10px; height:10px; background:#22c55e; border-radius:50%;"></div>
                     <div>
-                        <div style="line-height:1.2;">Utku AI Asistanı</div>
-                        <div style="font-size:11px; opacity:0.8; font-weight:400;">Online</div>
+                        <div style="font-weight:700;">Utku AI Asistanı</div>
+                        <div style="font-size:11px; opacity:0.7;">v1.0 • Online</div>
                     </div>
                 </div>
-                <span style="cursor:pointer; font-size:20px; padding:5px;" onclick="toggleChat()">✕</span>
+                <span style="cursor:pointer; padding:5px;" onclick="toggleChat()">✕</span>
             </div>
             <div id="chat-messages">
                 <div class="message bot-msg">
-                    Merhaba! 👋 Ben Utku'nun dijital asistanıyım. Projeleri, teknik yetkinlikleri veya çalışma geçmişi hakkında bana soru sorabilirsiniz.
+                    Merhaba! Ben Utku'nun dijital ikiziyim. 🤖<br>Projelerim, kodlarım veya tecrübelerim hakkında her şeyi sorabilirsin.
                 </div>
             </div>
-            <div class="typing-indicator" id="typing">Asistan yazıyor...</div>
+            <div class="typing-indicator" id="typing">düşünüyor</div>
             <div id="chat-input-area">
-                <input type="text" id="chat-input" placeholder="Bir soru sorun..." onkeypress="handleKeyPress(event)">
-                <button id="send-btn" onclick="sendMessage()">
-                    <svg viewBox="0 0 24 24" width="20" height="20" fill="white"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path></svg>
-                </button>
+                <input type="text" id="chat-input" placeholder="Komut girin..." onkeypress="handleKeyPress(event)">
+                <button id="send-btn" onclick="sendMessage()">GÖNDER</button>
             </div>
         </div>
         <button id="chat-toggle-btn" onclick="toggleChat()">
-            <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"></path></svg>
+            <span>>_</span>
         </button>
     </div>
 `;
 
-// 4. Widget'ı Sayfaya Yükle
 (function initChat() {
     const styleSheet = document.createElement("style");
     styleSheet.innerText = styles;
@@ -232,7 +247,6 @@ const html = `
     document.body.appendChild(div);
 })();
 
-// 5. Fonksiyonlar
 window.toggleChat = function() {
     const container = document.getElementById("chat-container");
     const isVisible = container.style.display === "flex";
