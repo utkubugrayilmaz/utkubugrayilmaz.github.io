@@ -36,6 +36,7 @@ I specialize in **Machine Learning**, **Backend Development**, and **Embedded Sy
 
 My experience spans from the automotive industry to high-frequency FinTech applications.
 * **In FinTech:** I architected an end-to-end financial analysis system for **BIST100 stocks**. By leveraging ensemble learning techniques (LightGBM, XGBoost) and integrating **LLMs (DeepSeek)** for sentiment analysis, I delivered a system achieving a **0.97 Sharpe Ratio**.
+* **In Computer Vision:** I developed a real-time **Face Emotion Recognition** system using custom **CNN architectures** and TensorFlow. The model achieved **87% accuracy** in classifying emotions and was integrated into an automated attendance tracking system.
 * **In Automotive:** At **MAN Türkiye A.Ş**, I gained valuable experience in **R&D**, working with **AUTOSAR** stacks and optimizing backend systems for embedded environments.
 * **In Research:** I have actively contributed to academic research in **Steganography** and **Metaheuristic Algorithms**, developing novel methods for data security.
 
