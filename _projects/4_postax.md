@@ -8,33 +8,31 @@ category: work
 related_publications: false
 ---
 
-PostaX is a comprehensive graduation project designed to revolutionize traditional mail delivery security. [cite_start]It is an intelligent mailbox system that combines Embedded Systems with Machine Learning to detect anomalies and unauthorized access attempts[cite: 32, 34].
+PostaX is a comprehensive graduation project designed to revolutionize traditional mail delivery security. It creates a secure, offline-capable ecosystem using **IoT** and **TinyML**, addressing the vulnerabilities of traditional mailboxes.
 
-### System Overview
+### Key Features
 
-The project addresses physical security challenges by implementing a smart locking mechanism controlled by user behavior analysis algorithms. [cite_start]The system creates security profiles to identify suspicious activities and trigger alerts[cite: 35].
+* **Secure Delivery (OTP):** Integrated with **Telegram API**. When a courier arrives, the system generates a secure **One-Time Password (OTP)** sent to your phone. The door opens only with the correct code via the keypad and auto-locks after 4 seconds.
+* **Offline Failover Mode:** Works seamlessly even without internet/Wi-Fi. The system intelligently switches to **Offline Mode** using **10 pre-generated secure keys** stored in memory, ensuring functionality during power or network outages.
+* **Real-Time Monitoring:** **ESP32-CAM** captures delivery moments 24/7. If the system is offline, it stores images locally and automatically syncs them via Telegram once connectivity is restored.
+* **Anomaly Detection:** Running **TinyML** models directly on the edge (Arduino BLE 33) to analyze user behavior and detect suspicious access attempts.
 
-### Hardware Architecture
+### Technical Architecture
 
-[cite_start]The solution features a robust Master-Slave architecture to solve integration challenges[cite: 40]:
-
-* [cite_start]**Core Units:** Integrated **Arduino BLE33 Rev2** and **ESP32CAM** for processing and visual verification[cite: 36, 37].
-* [cite_start]**Security Mechanisms:** Utilized **RFID authentication** and **Solenoid locks** for physical security[cite: 37].
-* [cite_start]**Energy Efficiency:** Designed a motion detection system that activates camera recording only when necessary, optimizing power consumption[cite: 38].
-* [cite_start]**Resilience:** Implemented backup power systems and recovery code protocols to maintain functionality during power or internet outages[cite: 39].
-
-### Software & AI Integration
-
-* [cite_start]**Anomaly Detection:** Machine learning algorithms analyze access patterns to detect potential security breaches[cite: 34].
-* [cite_start]**Remote Management:** Integrated a chatbot system for instant notifications and remote control capabilities[cite: 42].
-* [cite_start]**Testing Framework:** Developed a complete testing suite to validate system performance across multiple security scenarios[cite: 41].
+Unlike traditional systems, PostaX uses an optimized **I2C Communication Protocol** between its core units:
+* **Control Unit:** Arduino BLE 33 Rev2 (Handles Logic, Sensors, and ML).
+* **Vision & Connectivity:** ESP32-CAM (Handles Image Processing and Wi-Fi/Telegram).
 
 ### Tech Stack
+* **Hardware:** Arduino BLE 33 Rev2, ESP32-CAM, Keypad, Solenoid Locks.
+* **Connectivity:** Wi-Fi, Bluetooth Low Energy (BLE), I2C, UART.
+* **Software & AI:** Python, C++ (Embedded), Telegram Bot API, TinyML.
 
-* [cite_start]**Hardware:** Arduino, ESP32, RFID, Solenoid Mechanisms, Servo Motors[cite: 43].
-* [cite_start]**AI/ML:** Anomaly Detection Algorithms, Computer Vision[cite: 43].
-* **Connectivity:** Bluetooth Low Energy (BLE), Wi-Fi.
-
+<div class="row">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/postax_diagram.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 <div class="caption">
-    PostaX demonstrates the convergence of hardware engineering and AI for smart home security solutions.
+    System architecture showing the I2C communication and Offline Failover mechanism.
 </div>
