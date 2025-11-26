@@ -190,6 +190,11 @@ ninja.data = [{
           description: "An intelligent IoT mailbox system utilizing machine learning for anomaly detection and secure hardware integration.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_postax/";
+            },},{id: "projects-deprem-bildirim-botu",
+          title: 'Deprem Bildirim Botu',
+          description: "Real-time Asynchronous Earthquake Notification System",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/deprem-botu/";
             },},{
         id: 'social-cv',
         title: 'CV',
