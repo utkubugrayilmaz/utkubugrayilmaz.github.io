@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-i̇ris-veri-seti-üzerinde-makine-öğrenimi-modellerinin-karşılaştırmalı-analizi-ve-shap",
+        },{id: "post-bist100-i̇çin-yüksek-performanslı-bir-yapay-zeka-yatırımcısı-tasarlamak-231-getirinin-teknik",
+        
+          title: 'BIST100 İçin Yüksek Performanslı Bir Yapay Zeka Yatırımcısı Tasarlamak: %231 Getirinin Teknik… <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Read my article on Medium.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@utkubugrayil/bist100-i%CC%87%C3%A7in-y%C3%BCksek-performansl%C4%B1-bir-yapay-zeka-yat%C4%B1r%C4%B1mc%C4%B1s%C4%B1-tasarlamak-231-getirinin-teknik-7419db4da905?source=rss-a35dea5605ea------2", "_blank");
+          
+        },
+      },{id: "post-i̇ris-veri-seti-üzerinde-makine-öğrenimi-modellerinin-karşılaştırmalı-analizi-ve-shap",
         
           title: 'İris Veri Seti Üzerinde Makine Öğrenimi Modellerinin Karşılaştırmalı Analizi ve SHAP… <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
