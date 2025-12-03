@@ -47,6 +47,6 @@ This isn't just a wrapper; it's a stream manipulation tool.
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <a href="https://github.com/utkubugrayilmaz/CleanWatch" target="_blank" class="btn btn-primary" role="button">View on GitHub & Download</a>
+        <a href="https://github.com/utkubugrayilmaz/CleanWatch-Stream-Player" target="_blank" class="btn btn-primary" role="button">View on GitHub & Download</a>
     </div>
 </div>
